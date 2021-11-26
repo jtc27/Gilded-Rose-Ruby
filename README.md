@@ -17,8 +17,6 @@ The gem [approvals](https://github.com/kytrinyx/approvals) was used in testing. 
 Here is an excerpt from the approval test in gilded_rose_spec.rb
 
 ``` bash
-it 'is characterized' do  
-      verify do
  names = [
           'Aged Brie',
           "Backstage passes to a TAFKAL80ETC concert",
@@ -33,6 +31,26 @@ it 'is characterized' do
           Item.new(name, sell_in, quality)
         }
  ```
-The items variable uses a .product method to combine every type of **name** with every **sell_in** and **quality**.  The Approvals gem creates a text file in spec > fixtures >... is_characterized.**received**.txt.
+The items variable uses a .product method to combine every type of **name** with every **sell_in** and **quality**.  The approvals gem creates a text file in spec > fixtures >... is_characterized.**received**.txt.
 
 This file can be renamed is_characterized.**approved**.txt.  Each time you run rspec, a new **received**.txt will be maded and compared with the **approved**.txt.  If they match, the test passes.
+
+The text file lists all combinations in the .product method and has 100% coverage:
+
+``` bash
+[0] "Aged Brie, -2, 1"
+[1] "Aged Brie, -2, 2"
+[2] "Aged Brie, -2, 3"
+[3] "Aged Brie, -2, 50"
+[4] "Aged Brie, -2, 50"
+[5] "Aged Brie, -2, 51"
+[6] "Aged Brie, -1, 1"
+[7] "Aged Brie, -1, 2"
+[8] "Aged Brie, -1, 3"
+...
+[267] "Any Other Item, 11, 48"
+[268] "Any Other Item, 11, 49"
+[269] "Any Other Item, 11, 50"
+```
+
+
