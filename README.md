@@ -31,4 +31,6 @@ Here is an excerpt from the approval test in gilded_rose_spec.rb
           Item.new(name, sell_in, quality)
         }
  ```
-The items variable uses a .product method to combine every type of **name** with every **sell_in** and **quality**.  The Approvals gem creates a text file in spec>fixtures>... is_characterized.**received**.txt.
+The items variable uses a .product method to combine every type of **name** with every **sell_in** and **quality**.  The Approvals gem creates a text file in spec > fixtures >... is_characterized.**received**.txt.
+
+This file can be renamed is_characterized.**approved**.txt.  Each time you run rspec, a new **received**.txt will be maded and compared with the **approved**.txt.  If they match, the test passes.
