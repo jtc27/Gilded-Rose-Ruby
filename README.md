@@ -17,6 +17,8 @@ The gem [approvals](https://github.com/kytrinyx/approvals) was used in testing. 
 Here is an excerpt from the approval test in gilded_rose_spec.rb
 
 ``` bash
+it 'is characterized' do  
+      verify do
  names = [
           'Aged Brie',
           "Backstage passes to a TAFKAL80ETC concert",
