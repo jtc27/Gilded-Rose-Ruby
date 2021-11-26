@@ -66,5 +66,9 @@ The maze-like nested if statements were sifted through and cleaned up for each o
 I learned about characterization tests and also practiced refactoring legacy code.  More of these exercises would be helpful to my development.
 
 
+### Testing
 
+|             | Tool                                                 | Use?                                |
+| :---------: | ---------------------------------------------------- | ----------------------------------- | 
+| <img src="https://rspec.info/images/logo_ogp.png" height="auto" width="60">  | [RSpec](https://rspec.info/)                         | Testing tool for Ruby.              
 
