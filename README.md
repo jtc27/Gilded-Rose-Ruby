@@ -33,8 +33,8 @@ it 'is characterized' do
           Item.new(name, sell_in, quality)
         }
         ...
-      end
-    end
+   end
+end
  ```
 The items variable uses a .product method to combine every type of **name** with every **sell_in** and **quality**.  The approvals gem creates a text file in spec > fixtures >... is_characterized.**received**.txt.
 
@@ -43,6 +43,7 @@ This file can be renamed is_characterized.**approved**.txt.  Each time you run r
 The text file lists all combinations in the .product method and has 100% coverage:
 
 ``` bash
+idx|| name || sell_in || quality
 [0] "Aged Brie, -2, 1"
 [1] "Aged Brie, -2, 2"
 [2] "Aged Brie, -2, 3"
