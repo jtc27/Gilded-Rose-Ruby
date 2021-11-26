@@ -38,7 +38,7 @@ end
  ```
 The items variable uses a .product method to combine every type of **name** with every **sell_in** and **quality**.  The approvals gem creates a text file in spec > fixtures >... `is_characterized.received.txt`.
 
-This file can be renamed `is_characterized.approved.txt`.  Each time you run rspec, `is_characterized.approved.txt` is checked for any differenced.  If they match, the test passes.  If they don't match, the test fails and you will have two text files: `test_name.approved.txt` and `test_name.received.txt`.
+This file can be renamed `is_characterized.approved.txt`.  Each time you run rspec, `is_characterized.approved.txt` is checked for any differenced.  If they match, the test passes.  If they don't match, the test fails and you will have two text files: `is_characterized.approved.txt` and `is_characterized.received.txt`.
 
 The text file lists all combinations in the .product method and has 100% coverage:
 
