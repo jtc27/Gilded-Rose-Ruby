@@ -57,4 +57,12 @@ idx|| name || sell_in || quality
 [269] "Any Other Item, 11, 50"
 ```
 
+## Process
+The maze-like nested if statements were sifted through and cleaned up for each of the 4 item categories: Aged Brie, backstage passes, Sulfuras, and basic items.  Each class was given an .update method that would modify the item's sell_in and quality.  Lastly the conjured item class was added.
+
+## What I learned
+I learned about characterization tests and also practiced refactoring legacy code.  More of these exercises would be helpful to my development.
+
+
+
 
