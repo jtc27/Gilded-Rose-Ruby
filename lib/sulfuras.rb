@@ -5,6 +5,6 @@ class SulfurasUpdater
     @item = item
   end
 
-  def update
+  def update # being a legendary item it never has to be sold or decreases in Quality
   end
 end
