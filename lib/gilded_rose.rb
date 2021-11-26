@@ -12,7 +12,9 @@ class GildedRose
   end
 
   def update_quality
-    items.each(&method(:update))
+    @items.each do |item|
+      update(item)
+    end
   end
 
   private
