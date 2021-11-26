@@ -40,7 +40,7 @@ The items variable uses a .product method to combine every type of **name** with
 
 This file can be renamed `is_characterized.approved.txt`.  Each time you run rspec, `is_characterized.approved.txt` is checked for any differences.  The test passes if there are no differences.  If there are, the test fails and you will have two text documents: `is_characterized.approved.txt` and `is_characterized.received.txt`.
 
-The text file lists all combinations in the .product method and has 100% coverage:
+`is_characterized.approved.txt` lists all combinations in the .product method and the rspec test has 100% coverage:
 
 ``` bash
 idx|| name || sell_in || quality
