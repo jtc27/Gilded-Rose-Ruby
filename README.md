@@ -76,5 +76,5 @@ I learned about characterization tests and also practiced refactoring legacy cod
 
 |       | Gem                                                                | Use?                                                                   |
 | :---: | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| :diamonds: | [approvals](https://github.com/kytrinyx/approvals) | You take a snapshot of an object, and then compare all future versions of the object to the snapshot.                                  |
+| <img src="https://miro.medium.com/max/470/1*uHOD632-DD5BLu-ptcFgvA.png" height="auto" width="60"> | [approvals](https://github.com/kytrinyx/approvals) | You take a snapshot of an object, and then compare all future versions of the object to the snapshot.                                  |
 
