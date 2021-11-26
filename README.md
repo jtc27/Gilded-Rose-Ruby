@@ -3,6 +3,8 @@
 
 [Read the requirements here](https://github.com/makersacademy/course/blob/main/individual_challenges/gilded_rose.md)
 
+![alt text](https://previews.123rf.com/images/lumaxart2d/lumaxart2d0512/lumaxart2d051200069/296700-gilded-rose-3d.jpg)
+ 
 
 ## Installation
 Clone the repository
