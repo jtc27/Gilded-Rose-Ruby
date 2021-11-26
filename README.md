@@ -72,3 +72,11 @@ I learned about characterization tests and also practiced refactoring legacy cod
 | :---------: | ---------------------------------------------------- | ----------------------------------- | 
 | <img src="https://rspec.info/images/logo_ogp.png" height="auto" width="60">  | [RSpec](https://rspec.info/)                         | Testing tool for Ruby.              
 
+### Gems
+
+|       | Gem                                                                | Use?                                                                   |
+| :---: | ------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| :gem: | [approvals](https://github.com/kytrinyx/approvals) | You take a snapshot of an object, and then compare all future versions of the object to the snapshot.                                  |
+| :gem: | [awesome_print](https://github.com/awesome-print/awesome_print)    | One of our favourite gems; pretty prints output from the Rails console. |
+| :gem: | [bcrypt](https://github.com/bcrypt-ruby/bcrypt-ruby)    | Ruby password hashing to secure user passwords. |
+| :gem: | [carrierwave](https://github.com/carrierwaveuploader/carrierwave)    | File upload solution for Rails in tandem with AWS S3. |
