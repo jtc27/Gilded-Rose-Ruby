@@ -3,7 +3,7 @@
 
 [Read the requirements here](https://github.com/makersacademy/course/blob/main/individual_challenges/gilded_rose.md)
 
- <img src="https://amour-rose-eternelle.fr/wp-content/uploads/2020/12/rose-dore.jpg" alt="Your image title" width="250"/>
+<img src="https://amour-rose-eternelle.fr/wp-content/uploads/2020/12/rose-dore.jpg" width="250"/>
 
 ## Installation
 Clone the repository
