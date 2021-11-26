@@ -18,15 +18,17 @@ RSpec.describe GildedRose do
 
   # Approvals ensure the test code behavior doesn't change, as we refactor GildedRose
   # https://github.com/kytrinyx/approvals
+  # creates spec > fixtures .... text file.  2 text files: 'received' and 'approved'.  If they match, the test passes
 
-  it 'does stuff' do # Approvals
+  # Approvals
+  it 'does stuff' do  
     verify do
-      items = [Item.new('foo', 0, 0)]
+      items = [Item.new('Aged Brie', 0, 0)]
       gilded_rose = GildedRose.new(items)
 
       gilded_rose.update_quality
 
-      gilded_rose.items
+      gilded_rose.items.map(&:to_s)
     end
   end
 

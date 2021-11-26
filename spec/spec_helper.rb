@@ -1,5 +1,6 @@
 require 'simplecov'
 require 'simplecov-console'
+require 'approvals/rspec' # Approvals for Tests
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
@@ -8,11 +9,6 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
 ])
 SimpleCov.start
 
-require 'approvals/rspec'
-
-RSpec.configure do |config|
-  config.approvals_path = 'some/other/path'
-end
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
