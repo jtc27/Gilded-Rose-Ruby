@@ -17,12 +17,6 @@ RSpec.describe GildedRose do
   end
 
 
-  it 'returns self' do
-    items =[]
-    gilded_rose = GildedRose.new
-    
-  end
-
 
   # Approvals ensure the test code behavior doesn't change, as we refactor GildedRose
   # https://github.com/kytrinyx/approvals
@@ -38,7 +32,7 @@ RSpec.describe GildedRose do
         'Any Other Item'
       ]
       sell_ins = [-1, 0, 1, 5, 6, 7, 10, 11, 12] # cross products for every type of case
-      qualities = [-1, 0, 1, 49, 50, 51]         # meant for max coverage
+      qualities = [-1, 0, 1, 49, 50, 51]         # for max coverage
 
       items = names.product(sell_ins, qualities).map { |(name, sell_in, quality)|
          Item.new(name, sell_in, quality)
