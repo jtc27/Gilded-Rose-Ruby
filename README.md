@@ -17,6 +17,8 @@ The gem [approvals](https://github.com/kytrinyx/approvals) was used in testing. 
 Here is an excerpt from the approval test in gilded_rose_spec.rb
 
 ``` bash
+it 'is characterized' do  
+ verify do
  names = [
           'Aged Brie',
           "Backstage passes to a TAFKAL80ETC concert",
@@ -44,9 +46,7 @@ The text file lists all combinations in the .product method and has 100% coverag
 [3] "Aged Brie, -2, 50"
 [4] "Aged Brie, -2, 50"
 [5] "Aged Brie, -2, 51"
-[6] "Aged Brie, -1, 1"
-[7] "Aged Brie, -1, 2"
-[8] "Aged Brie, -1, 3"
+...
 ...
 [267] "Any Other Item, 11, 48"
 [268] "Any Other Item, 11, 49"
