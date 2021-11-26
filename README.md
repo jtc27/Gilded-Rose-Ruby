@@ -68,7 +68,7 @@ I learned about characterization tests and also practiced refactoring legacy cod
 
 ### Testing
 
-|             | Tool                                                 | Use?                                |
+|             | Tool                                                 | Description                         |
 | :---------: | ---------------------------------------------------- | ----------------------------------- | 
 | <img src="https://rspec.info/images/logo_ogp.png" height="auto" width="60">  | [RSpec](https://rspec.info/)                         | Testing tool for Ruby.              
 
