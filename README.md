@@ -12,7 +12,7 @@ Clone the repository
 ```
 
 ## Approvals
-The gem [approvals](https://github.com/kytrinyx/approvals) was used in testing.  As I was refactoring legacy code, the approvals ensured there was no undesirable behavior from the bode.  This is called a [characterization test](https://en.wikipedia.org/wiki/Characterization_test), or Golden Master Testing.
+The gem [approvals](https://github.com/kytrinyx/approvals) was used in testing.  As I was refactoring legacy code, the approvals ensured there was no undesirable behavior from the code.  This is called a [characterization test](https://en.wikipedia.org/wiki/Characterization_test), or Golden Master Testing.
 
 Here is an excerpt from the approval test in gilded_rose_spec.rb
 
