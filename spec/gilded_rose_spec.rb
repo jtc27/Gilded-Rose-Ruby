@@ -136,10 +136,6 @@ RSpec.describe GildedRose do
 
   end
 
-  # Approvals ensure the test code behavior doesn't change, as we refactor GildedRose
-  # https://github.com/kytrinyx/approvals
-  # creates spec > fixtures .... text file.  2 text files: 'received' and 'approved'.  If they match, the test passes
-
   # Approvals / checks that refactoring legacy code does not produce undesirable behavior
   describe "#Approvals" do
     it 'is characterized' do  
@@ -148,6 +144,7 @@ RSpec.describe GildedRose do
           'Aged Brie',
           "Backstage passes to a TAFKAL80ETC concert",
           "Sulfuras, Hand of Ragnaros",
+          "Conjured Item",
           'Any Other Item'
         ]
         sell_ins = [-1, 0, 1, 5, 6, 7, 10, 11, 12] # cross products for every type of case
