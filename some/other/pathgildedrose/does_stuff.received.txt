@@ -1,0 +1,1 @@
+[0] #<Item:0x0000000122c99b90 @name="foo", @sell_in=-1, @quality=0>
