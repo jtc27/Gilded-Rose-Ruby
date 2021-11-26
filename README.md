@@ -32,6 +32,9 @@ it 'is characterized' do
         items = names.product(sell_ins, qualities).map { |(name, sell_in, quality)|
           Item.new(name, sell_in, quality)
         }
+        ...
+      end
+    end
  ```
 The items variable uses a .product method to combine every type of **name** with every **sell_in** and **quality**.  The approvals gem creates a text file in spec > fixtures >... is_characterized.**received**.txt.
 
