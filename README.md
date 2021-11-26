@@ -5,6 +5,7 @@
 
 ![alt text](https://amour-rose-eternelle.fr/wp-content/uploads/2020/12/rose-dore.jpg)
  
+ <img src="https://amour-rose-eternelle.fr/wp-content/uploads/2020/12/rose-dore.jpg" alt="Your image title" width="250"/>
 
 ## Installation
 Clone the repository
