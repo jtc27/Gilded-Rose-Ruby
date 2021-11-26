@@ -16,12 +16,20 @@ RSpec.describe GildedRose do
     end
   end
 
+
+  it 'returns self' do
+    items =[]
+    gilded_rose = GildedRose.new
+    
+  end
+
+
   # Approvals ensure the test code behavior doesn't change, as we refactor GildedRose
   # https://github.com/kytrinyx/approvals
   # creates spec > fixtures .... text file.  2 text files: 'received' and 'approved'.  If they match, the test passes
 
   # Approvals
-  it 'does stuff' do  
+  it 'checks every combination of name, sell_in, quality' do  
     verify do
       names = [
         'Aged Brie',
